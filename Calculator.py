@@ -19,7 +19,7 @@ def cal():
         result = int(num1) - int(num2)
         print("The result is %s." % result)
 
-    elif sign == "x":
+    elif sign == "x" or sign == "*":
         result = num1 * num2
         print("The result is %s." % result)
 
@@ -27,7 +27,7 @@ def cal():
         result = num1 / num2
         print("The result is %s." % result)
 
-    elif sign == "xx":
+    elif sign == "xx" or sign == "*":
         result = num1 ** num2
         print("the result is %s." % result)
 
@@ -39,6 +39,7 @@ def cal():
 def sqr():
     from math import sqrt
     answer = input("Enter a number you want to find the square root of: ")
+    return sqr(answer)
 
     def cals():
         result = sqrt(int(answer))
