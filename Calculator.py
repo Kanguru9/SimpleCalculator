@@ -27,7 +27,7 @@ def cal():
         result = num1 / num2
         print("The result is %s." % result)
 
-    elif sign == "xx" or sign == "*":
+    elif sign == "xx" or sign == "**":
         result = num1 ** num2
         print("the result is %s." % result)
 
